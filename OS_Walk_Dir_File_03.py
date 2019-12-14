@@ -1,7 +1,7 @@
 import os
 
 
-for dirpath, dirs, files in os.walk("/home/jsoto3000/Documents/js_rj_udacity/js_rj_udacity-master/Python"):	 
+for dirpath, dirs, files in os.walk('PATH'):	 
 	path = dirpath.split('/')
 	print ('|', (len(path))*'---', '[',os.path.basename(dirpath),']')
 	for f in files:

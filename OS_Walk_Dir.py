@@ -1,6 +1,6 @@
 import os
 
-for folderName, subfolders, filenames in os.walk('/home/jsoto3000/Documents/js_rj_udacity/js_rj_udacity-master/Python'):
+for folderName, subfolders, filenames in os.walk('PATH'):
     print('The current folder is ' + folderName)
 
     for subfolder in subfolders:
